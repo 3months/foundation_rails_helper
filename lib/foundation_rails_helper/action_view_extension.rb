@@ -15,8 +15,6 @@ module ActionView
         fields_for_without_foundation(record_name, record_object, options, &block)
       end
 
-      alias_method_chain :form_for, :foundation
-      alias_method_chain :fields_for, :foundation
     end
   end
 end
